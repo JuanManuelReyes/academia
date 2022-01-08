@@ -1,5 +1,7 @@
 .owl-stage-outer {
   margin: 50px 75px 0px 75px;
+  box-shadow: 6px 6px 18px 0 rgba(0, 0, 0, 0.4);
+
 }
 
 .seccion-dos {
@@ -10,7 +12,7 @@
   margin: 50px 75px 90px 75px;
 }
 
-.vehiculos h3  {
+.vehiculos h3 {
   padding: 0 0 0 7.5%;
 }
 
@@ -22,11 +24,15 @@
 
 .item {
   border: 2px solid #a3a3a3;
+  box-shadow: 6px 6px 18px 0 rgba(0, 0, 0, 0.4);
 }
+
+
 
 .item-nosotros-Div,
 .item-instructores-Div {
   padding: 25px;
+
 }
 
 .grid-us h2 {

@@ -16,20 +16,22 @@ a:active {
   z-index: 10;
 }
 
-/* Estilos del Header */
-.header a {
-  color: black;
+ /* Estilos del Header */
+
+
+ .header a {
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   line-height: 20px;
   letter-spacing: 2px;
   transition: 0.3s;
-}
-
-.header a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-  color: rgba(20, 20, 20, 0.911);
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
 }
 
 .headerDiv {
@@ -86,6 +88,61 @@ a:active {
   opacity: 1;
 }
 
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: rgb(54, 54, 54);
+}
+
+
 /* Footer */
 
 .footer {
@@ -109,6 +166,9 @@ a:active {
   line-height: 20px;
   letter-spacing: 3px;
   word-spacing: 2px;
+  transition: 0.3s;
+  display: block;
+  padding: 0 0 7px 0;
 }
 
 .footerLogo {
@@ -144,3 +204,65 @@ a:active {
   margin-top: 8px;
 }
 
+footer.stroke ul li a,
+footer.fill ul li a {
+  position: relative;
+}
+footer.stroke ul li a:after,
+footer.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: rgb(102, 102, 102, 0.6);
+  height: 1px;
+}
+footer.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+footer.fill ul li a {
+  transition: all 2s;
+}
+
+footer.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+footer.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+footer.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+}
+
+footer ul li a,
+footer ul li a:after,
+footer ul li a:before {
+  transition: all .5s;
+}
+footer ul li a:hover {
+  transform: scale(1.05);
+  color: rgb(54, 54, 54);
+}
+
+.footerLogo:hover {
+  transform: scale(1.1);
+}
+
+.footerCyberTec:hover {
+  color: black;
+  text-decoration: none;
+}

@@ -31,8 +31,15 @@ h4 {
 
 .seccionUno-div__div {
     border: 2px solid #a3a3a3;
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.4);
     padding: 15px;
     margin: 0 0 45px 0;
+    transition: .3s;
+}
+.seccionUno-div__div:hover{
+    transform: scale(1.02);
+    box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.5);
+    border: 2px solid #7a7a7a;
 }
 
 .seccionDos {
@@ -79,7 +86,7 @@ h4 {
 }
 
 .planes-top {
-    margin: 2% 0 0 0;
+    margin: 4% 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -105,7 +112,7 @@ h4 {
 
 .card:hover {
     box-shadow: 12px 12px 20px 0 rgba(0, 0, 0, 0.6);
-    transform: scale(1.05);
+    transform: scale(1.02);
     background-color: rgb(245, 245, 245);
 }
 

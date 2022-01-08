@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
-    <title>Servicios - DYF</title>
+    <title>Contacto - DYF</title>
 </head>
 
 <body>
@@ -31,27 +31,110 @@
                 </div>
             </div>
             <div class="headerNav">
-                <div class="headerNav-div">
+                <nav class="stroke headerNav-div">
                     <ul class="heaederNav-ul">
                         <li class="one"><a href="../index.html">INICIO</a></li>
                         <li class="two"><a href="../pages/servicios.html">SERVICIOS</a></li>
                         <li class="four"><a href="../pages/teorica.html">PRUEBA TEORICA</a></li>
                         <li class="five"><a href="#">CONTACTO</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
         <div class="headerBorder"></div>
     </header>
+    <div>
+        <a href="https://wa.me/094340044?text=MENSAJE" class="btn-wsp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <form>
+        <div class="form-h1">
+        <h2>Contactanos</h2> 
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Nombre Completo *</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ej: Pedro Ramirez" required>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput">Asunto *</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ej: Metodos de Pago"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico *</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="ej:  p.ramirez@gmail.com" required>
+            <small id="emailHelp" class="form-text text-muted">Tu correo electronico no sera compartido con
+                terceros.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Escribe tu Consulta *</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="ej: Quisiera saber que medios de pago aceptan." required></textarea>
+        </div>
+        <div class="form-btn-p">
+            <button type="submit" class="btn btn-primary" onclick="this.blur();">Enviar</button>
+            <p>* Campo Obligatorio</p>
+        </div>
+    </div>
+</form>
 
 
+    <div class="contactos">
 
+        <div class="contactos-div">
+            <div class="contactos-info">
+                <div>
+                    <h3>Redes Sociales</h3>
+                </div>
+                <div class="medias">
+                    <ul class="medias-items">
+                        <li>
+                            <img src="../media/img/ig.png" alt="">
+                            Instagram: Academiadechoferesdyf
+                        </li>
+
+                        <i class="fas fa-circle"></i>
+                        <li>
+                            <img src="../media/img/wats.png" alt="">
+                            Whatsapp : 094340044
+                        </li>
+
+                        <i class="fas fa-circle"></i>
+                        <li>
+                            <img src="../media/img/fb.png" alt="">
+                            Facebook : Academiadyf
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="contactos-maps">
+                <div class="contactos-maps-h3">
+                    <h3>Encuentranos!</h3>
+                </div>
+                <div class="contactos-maps-map">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Monumeto%20de%20la%20Carreta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <div class="headerBorder"></div>
-    <footer>
+    <footer class="stroke">
         <div class="footer">
-            <a href="../index.html" class=""><img class="footerLogo" src="../media/logo.png"></a>
+            <a href="#" class=""><img class="footerLogo" src="../media/logo.png"></a>
             <div class="footerItemDiv">
                 <ul class="footerItem paginas">
                     <li>
@@ -59,11 +142,11 @@
                     </li>
                     <i class="fas fa-circle"></i>
                     <li>
-                        <a href="../pages/servicios.html">SERVICIOS </i></a>
+                        <a href="./servicios.html">SERVICIOS </i></a>
                     </li>
                     <i class="fas fa-circle"></i>
                     <li>
-                        <a href="../pages/teorica.html">PRUEBA TEORICA </i></a>
+                        <a href="./teorica.html">PRUEBA TEORICA </i></a>
                     </li>
                     <i class="fas fa-circle"></i>
                     <li>
