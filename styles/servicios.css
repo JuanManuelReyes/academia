@@ -1,144 +1,132 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-
-body {
-  overflow-x: hidden;
+* p {
+    font-size: 20px;
 }
 
-ul {
-  list-style: none;
-  list-style-type: none;
+.seccionUno {}
+
+.seccionUno h1,
+.seccionUno h5 {
+    text-align: center;
 }
 
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-  z-index: 10;
+.seccionUno h5,
+h4 {
+    font-size: 26px;
 }
 
-/* Estilos del Header */
-.header a {
-  color: black;
-  text-transform: uppercase;
-  font-family: "Inter", sans-serif;
-  line-height: 20px;
-  letter-spacing: 2px;
-  transition: 0.3s;
+.seccionUno-h1 {
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid #a3a3a3;
+    width: 33%;
+    text-align: center;
+    margin: 1.25% auto 0 auto;
 }
 
-.header a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-  color: rgba(20, 20, 20, 0.911);
+.seccionUno-div {
+    margin: 3% 3% 0.75% 3%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
 }
 
-.headerDiv {
-  display: flex;
-  width: 100%;
-  height: 150px;
+.seccionUno-div__div {
+    border: 2px solid #a3a3a3;
+    padding: 15px;
+    margin: 0 0 45px 0;
 }
 
-.headerLogo {
-  width: 30%;
-  display: flex;
+.seccionDos {
+    margin: 0.75% 6% 0.75% 6%;
 }
 
-.headerNav {
-  width: 70%;
+.seccionDos-h2 {
+    padding: 10px 0 3px 0;
+    border-bottom: 2px solid #a3a3a3;
+    width: 33%;
+    margin: auto auto;
+    text-align: center;
 }
 
-.headerLogo-div {
-  margin: auto 0 auto 75px;
+.seccionDos-p {
+    border-right: 2px solid #a3a3a3;
+    border-bottom: 2px solid #a3a3a3;
+    margin: 3% 0 0 0;
+    padding: 1.25%;
 }
 
-.headerLogo-img {
-  height: 80px;
-  width: 242px;
-  transition: 0.2s;
+
+
+/* .seccionTres-text-p { */
+
+.seccionTres {
+    margin: 0.75% 3% 0.75% 3%;
 }
 
-.headerLogo-img:hover {
-  transform: scale(1.1);
+.seccionTres-text-h4 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid #a3a3a3;
+    width: 33%;
+    margin: 4.25% auto 0 auto;
 }
 
-.headerNav-div {
-  margin-right: 75px;
-}
-.heaederNav-ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  height: 150px;
+.seccionTres-text-p {
+    margin: 2% 4.5%;
 }
 
-.heaederNav-ul li {
-  margin: 45px 0 45px 70px;
-  padding: 0 15px;
-  font-family: "Inter";
-  font-size: 20px;
-  font-weight: bolder;
+.planes {
+    margin: 0 12.5%;
 }
 
-.headerBorder {
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(#a3a3a3 10%, #ffffff 100%);
-  opacity: 1;
+.planes-top {
+    margin: 2% 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Footer */
-
-.footer {
-  width: 100%;
-  height: auto;
+.planes-bot {
+    justify-content: space-between;
+    padding: 3% 19.1% 0 19.1%;
+    display: flex;
+    margin: auto auto 3% auto;
 }
 
-.footerItem {
-  display: flex;
-  width: 55%;
-  margin: 50px auto;
-  justify-content: space-between;
+.card {
+    box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+    margin: center;
+    text-align: center;
+    font-family: arial;
+    border-radius: 0px;
+    transition: .3s;
+    background-color: rgb(247, 247, 247);
+    ;
 }
 
-.footerItem a {
-  color: black;
-  font-size: 15px;
-  transition: 0.5s;
-  text-transform: uppercase;
-  line-height: 20px;
-  letter-spacing: 3px;
-  word-spacing: 2px;
+.card:hover {
+    box-shadow: 12px 12px 20px 0 rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+    background-color: rgb(245, 245, 245);
 }
 
-.footerLogo {
-  display: flex;
-  margin: auto;
-  padding: 50px 0 0 0;
-  width: 260px;
-  height: 100%;
-  transition: 0.3s;
+.price {
+    color: grey;
+    font-size: 22px;
 }
 
-.footerCopyRight {
-  color: black;
-  display: flex;
-  justify-content: center;
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: .3s;
 }
 
-.footerCyberTec {
-  color: black;
-}
-
-.footerCyberTec:hover {
-  opacity: 0.5;
-}
-
-.logoCyberTec {
-  width: 30px;
-  height: 100%;
-}
-
-.footerItemDiv i {
-  font-size: 7px;
-  margin-top: 8px;
+.card button:hover {
+    opacity: 0.7;
 }

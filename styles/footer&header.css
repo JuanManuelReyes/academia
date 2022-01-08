@@ -93,6 +93,7 @@ a:active {
   height: auto;
 }
 
+
 .footerItem {
   display: flex;
   width: 55%;
@@ -142,3 +143,4 @@ a:active {
   font-size: 7px;
   margin-top: 8px;
 }
+
