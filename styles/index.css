@@ -1,7 +1,6 @@
 .owl-stage-outer {
   margin: 50px 75px 0px 75px;
   box-shadow: 6px 6px 18px 0 rgba(0, 0, 0, 0.4);
-
 }
 
 .seccion-dos {
@@ -9,7 +8,7 @@
 }
 
 .vehiculos {
-  margin: 50px 75px 90px 75px;
+  margin: 3% 5% 3% 5%;
 }
 
 .vehiculos h3 {
@@ -18,7 +17,7 @@
 
 .grid-us {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 32% 64%;
   grid-column-gap: 5%;
 }
 
@@ -27,12 +26,9 @@
   box-shadow: 6px 6px 18px 0 rgba(0, 0, 0, 0.4);
 }
 
-
-
 .item-nosotros-Div,
 .item-instructores-Div {
-  padding: 25px;
-
+  padding: 1.5%;
 }
 
 .grid-us h2 {
@@ -41,6 +37,7 @@
 
 .flex-inst {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .flex-inst div {
@@ -52,11 +49,25 @@
 }
 
 .inst-img {
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 100%;
 }
 
-#instructores {
-  width: 300px;
-  height: 300px;
+.flex-auto {
+  justify-content: space-evenly;
+  display: flex;
 }
+
+.flex-auto div {
+  padding: 10px 25px 0 25px;
+}
+
+.flex-auto p {
+  text-align: center;
+}
+
+.auto-img {
+  width: 100%;
+  height: auto;
+}
+

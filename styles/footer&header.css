@@ -16,17 +16,17 @@ a:active {
   z-index: 10;
 }
 
- /* Estilos del Header */
+/* Estilos del Header */
 
 
- .header a {
+.headerNav-div a {
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   line-height: 20px;
   letter-spacing: 2px;
   transition: 0.3s;
   display: block;
-  padding: 15px;
+  padding: 2%;
   text-decoration: none;
   color: rgb(116, 116, 116);
   font-weight: 800;
@@ -37,48 +37,44 @@ a:active {
 .headerDiv {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: auto;
 }
 
 .headerLogo {
   width: 30%;
   display: flex;
-}
-
-.headerNav {
-  width: 70%;
-}
-
-.headerLogo-div {
-  margin: auto 0 auto 75px;
+  margin: auto 0;
 }
 
 .headerLogo-img {
-  height: 80px;
-  width: 242px;
+  height: auto;
+  width: 50%;
   transition: 0.2s;
+  float: right;
 }
 
 .headerLogo-img:hover {
   transform: scale(1.1);
 }
 
-.headerNav-div {
-  margin-right: 75px;
+.headerNav {
+  width: 100%;
 }
+
 .heaederNav-ul {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
   height: 150px;
 }
 
 .heaederNav-ul li {
-  margin: 45px 0 45px 70px;
-  padding: 0 15px;
+  margin: 1% 0;
   font-family: "Inter";
   font-size: 20px;
   font-weight: bolder;
+  white-space: nowrap;
 }
 
 .headerBorder {
@@ -93,6 +89,7 @@ nav.stroke ul li a,
 nav.fill ul li a {
   position: relative;
 }
+
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
   position: absolute;
@@ -106,6 +103,7 @@ nav.fill ul li a:after {
   background: #aaa;
   height: 1px;
 }
+
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
@@ -120,6 +118,7 @@ nav.fill ul li a:after {
   margin: 0;
   opacity: 0;
 }
+
 nav.fill ul li a:hover {
   color: #fff;
   z-index: 1;
@@ -128,6 +127,7 @@ nav.fill ul li a:hover {
 nav a:hover {
   opacity: 1;
 }
+
 nav.fill ul li a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
@@ -138,6 +138,7 @@ nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
 nav ul li a:hover {
   color: rgb(54, 54, 54);
 }
@@ -208,6 +209,7 @@ footer.stroke ul li a,
 footer.fill ul li a {
   position: relative;
 }
+
 footer.stroke ul li a:after,
 footer.fill ul li a:after {
   position: absolute;
@@ -221,6 +223,7 @@ footer.fill ul li a:after {
   background: rgb(102, 102, 102, 0.6);
   height: 1px;
 }
+
 footer.stroke ul li a:hover:after {
   width: 100%;
 }
@@ -235,6 +238,7 @@ footer.fill ul li a:after {
   margin: 0;
   opacity: 0;
 }
+
 footer.fill ul li a:hover {
   color: #fff;
   z-index: 1;
@@ -243,6 +247,7 @@ footer.fill ul li a:hover {
 footer a:hover {
   opacity: 1;
 }
+
 footer.fill ul li a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
@@ -253,6 +258,7 @@ footer ul li a:after,
 footer ul li a:before {
   transition: all .5s;
 }
+
 footer ul li a:hover {
   transform: scale(1.05);
   color: rgb(54, 54, 54);
@@ -265,4 +271,18 @@ footer ul li a:hover {
 .footerCyberTec:hover {
   color: black;
   text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+  .footerItem {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerItem {
+    width: 85%;
+  }
 }
