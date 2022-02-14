@@ -11,6 +11,10 @@ form div {
   outline: none !important;
 }
 
+a {
+  color: black;
+}
+
 .form-h1 {
   text-align: center;
 }
@@ -113,4 +117,31 @@ div ul {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+}
+
+@media screen and (max-width: 425px) {
+  .medias ul {
+    display: inline-block;
+  }
+
+  .medias li {
+    margin: 17.5px 0;
+  }
+
+  .medias i {
+    display: none;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  .contactos-maps {
+    height: 350px;
+  }
+
+  #gmap_canvas {
+    height: 300px;
+    width: 100%;
+  }
 }

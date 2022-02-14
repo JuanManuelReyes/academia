@@ -1,139 +1,176 @@
 * p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.seccionUno {}
+.seccionUno {
+}
 
 .seccionUno h1,
 .seccionUno h5 {
-    text-align: center;
+  text-align: center;
 }
 
 .seccionUno h5,
 h4 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .seccionUno-h1 {
-    padding: 10px 0 10px 0;
-    border-bottom: 2px solid #a3a3a3;
-    width: 33%;
-    text-align: center;
-    margin: 1.25% auto 0 auto;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #a3a3a3;
+  width: 33%;
+  text-align: center;
+  margin: 1.25% auto 0 auto;
 }
 
 .seccionUno-div {
-    margin: 3% 3% 0.75% 3%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-column-gap: 5%;
+  margin: 3% 3% 0.75% 3%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 5%;
 }
 
 .seccionUno-div__div {
-    border: 2px solid #a3a3a3;
-    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.4);
-    padding: 15px;
-    margin: 0 0 45px 0;
-    transition: .3s;
+  border: 2px solid #a3a3a3;
+  box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  margin: 0 0 45px 0;
+  transition: 0.3s;
 }
-.seccionUno-div__div:hover{
-    transform: scale(1.02);
-    box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.5);
-    border: 2px solid #7a7a7a;
+.seccionUno-div__div:hover {
+  transform: scale(1.02);
+  box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.5);
+  border: 2px solid #7a7a7a;
 }
 
 .seccionDos {
-    margin: 0.75% 6% 0.75% 6%;
+  margin: 0.75% 6% 0.75% 6%;
 }
 
 .seccionDos-h2 {
-    padding: 10px 0 3px 0;
-    border-bottom: 2px solid #a3a3a3;
-    width: 33%;
-    margin: auto auto;
-    text-align: center;
+  padding: 10px 0 3px 0;
+  border-bottom: 2px solid #a3a3a3;
+  width: 33%;
+  margin: auto auto;
+  text-align: center;
 }
 
 .seccionDos-p {
-    border-right: 2px solid #a3a3a3;
-    border-bottom: 2px solid #a3a3a3;
-    margin: 3% 0 0 0;
-    padding: 1.25%;
+  border-right: 2px solid #a3a3a3;
+  border-bottom: 2px solid #a3a3a3;
+  margin: 3% 0 0 0;
+  padding: 1.25%;
 }
-
-
 
 /* .seccionTres-text-p { */
 
 .seccionTres {
-    margin: 0.75% 3% 0.75% 3%;
+  margin: 0.75% 3% 0.75% 3%;
 }
 
 .seccionTres-text-h4 {
-    text-align: center;
-    padding: 10px 0 10px 0;
-    border-bottom: 2px solid #a3a3a3;
-    width: 33%;
-    margin: 4.25% auto 0 auto;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #a3a3a3;
+  width: 33%;
+  margin: 4.25% auto 0 auto;
 }
 
 .seccionTres-text-p {
-    margin: 2% 4.5%;
+  margin: 2% 4.5%;
 }
 
 .planes {
-    margin: 0 12.5%;
+  margin: 0 12.5%;
 }
 
 .planes-top {
-    margin: 4% 0 0 0;
-    display: flex;
-    justify-content: space-between;
+  margin: 4% 0 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .planes-bot {
-    justify-content: space-between;
-    padding: 3% 19.1% 0 19.1%;
-    display: flex;
-    margin: auto auto 3% auto;
+  justify-content: space-between;
+  padding: 3% 19.1% 0 19.1%;
+  display: flex;
+  margin: auto auto 3% auto;
 }
 
 .card {
-    box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.4);
-    max-width: 350px;
-    margin: center;
-    text-align: center;
-    font-family: arial;
-    border-radius: 0px;
-    transition: .3s;
-    background-color: rgb(247, 247, 247);
-    ;
+  box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.4);
+  max-width: 350px;
+  margin: center;
+  text-align: center;
+  font-family: arial;
+  border-radius: 0px;
+  transition: 0.3s;
+  background-color: rgb(247, 247, 247);
 }
 
 .card:hover {
-    box-shadow: 12px 12px 20px 0 rgba(0, 0, 0, 0.6);
-    transform: scale(1.02);
-    background-color: rgb(245, 245, 245);
+  box-shadow: 12px 12px 20px 0 rgba(0, 0, 0, 0.6);
+  transform: scale(1.02);
+  background-color: rgb(245, 245, 245);
 }
 
 .price {
-    color: grey;
-    font-size: 22px;
+  color: grey;
+  font-size: 22px;
 }
 
 .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-    transition: .3s;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
 .card button:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
+
+@media screen and (max-width: 768px) {
+  .planes {
+    margin: 0 0;
+  }
+
+  .seccionTres {
+    margin: 0.75% 0 0.75% 0;
+    justify-content: space-around;
+  }
+
+  .planes-top {
+    margin: 0 6px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .seccionUno-div {
+    margin: 3% 3% 0.75% 3%;
+    display: block;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
+  }
+
+  .planes-top,
+  .planes-bot {
+    display: block;
+    padding: 0 7.1% 0 7.1%;
+    margin: auto auto 3% auto;
+  }
+  .card {
+      margin: 35px 0;
+  }
+
+  .seccionUno-h1-div {
+    font-size: 50px !important;
+  }
+}
+
