@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Test Teorico</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../styles/test1-style.css">
+</head>
+
+<body>
+
+	<div class="home-box custom-box">
+		<h3>Prueba Teorica</h3>
+		<p>Numero Total de Preguntas: <span class="total-questions"></span></p>
+		<button type="button" class="btn" onclick="startQuiz()">Comenzar Prueba</button>
+	</div>
+	<div class="quiz-box custom-box hide">
+		<div class="question-number">
+			
+		</div>
+		<div class="question-text">
+			
+		</div>
+		<div class="option-container">
+			
+		</div>
+		<div class="next-question-btn">
+			<button type="button" class="btn" onclick="next()">Siguiente</button>
+		</div>
+		<div class="answers-indicator">
+			
+  		</div>
+	</div>
+
+	<div class="result-box custom-box hide">
+		<h1>Resultado Final</h1>
+		<table>
+			<tr>
+				<td>Total de Preguntas</td>
+				<td><span class="total-questions"></span></td>
+			</tr>
+			<tr>
+				<td>Intentos</td>
+				<td><span class="total-attempts"></span></td>
+			</tr>
+			<tr>
+				<td>Correctas</td>
+				<td><span class="total-correct"></span></td>
+			</tr>
+			<tr>
+				<td>Incorrectas</td>
+				<td><span class="total-wrong"></span></td>
+			</tr>
+			<tr>
+				<td>Porcentaje</td>
+				<td><span class="percentage"></span></td>
+			</tr>
+			<tr>
+				<td>Puntaje Total</td>
+				<td><span class="total-score"></span></td>
+			</tr>	
+		</table>
+
+		<button type="button" class="btn" onclick="tryAgainQuiz()">Intentar de Nuevo</button>
+		<button type="button" class="btn" onclick="goToHome()">Volver al Menu</button>
+	</div>
+
+	<script src="../js/question1.js"></script>
+	<script src="../js/test1.js"></script>
+</body>
+
+</html>
