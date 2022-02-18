@@ -71,6 +71,7 @@ h4 {
   padding: 15px;
   margin: 0 0 45px 0;
   transition: 0.3s;
+  border-radius: 20px;
 }
 .seccionDos-div__div:hover {
   transform: scale(1.02);
