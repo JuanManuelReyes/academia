@@ -207,7 +207,7 @@ body{
 
 .quiz-box .answers-indicator div.correct{
     background-color: #4ed14e;
-    background-image: url(../img/correct.png) ;
+    background-image: url(../media/img/correct.png) ;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,7 +215,7 @@ body{
 
 .quiz-box .answers-indicator div.wrong{
     background-color: #fb493f;
-    background-image: url(../img/wrong.png) ;
+    background-image: url(../media/img/wrong.png) ;
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
